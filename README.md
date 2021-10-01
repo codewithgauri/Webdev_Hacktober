@@ -88,7 +88,7 @@ So, yes! You can win a T-Shirt and few awesome stickers to attach on your laptop
 After contributing add your **NAME and USER NAME** here:
 
  1. **Gaurav Pandey**- [Codewithgauri](https://github.com/codewithgauri)
- 2. **Full Name** - [User Name](https://github.com/username)
+ 2. **Syed Mustafa Imam** - [SyedMustafaImam](https://github.com/SyedMustafaImam)
  3. **Full Name** - [User Name](https://github.com/username)
  4. **Full Name** - [User Name](https://github.com/username)
  5. **Full Name** - [User Name](https://github.com/username)
