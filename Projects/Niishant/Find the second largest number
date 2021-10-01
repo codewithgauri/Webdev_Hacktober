@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<script>
+			$(document).ready(function()
+			{
+				$("input[type=button]").click(function()
+				{
+					var i,a=[],p="";
+					for(i=0; i<$("#txt").val(); i++)
+					{
+						a[i]=prompt("Enter Elements Here :");
+						p=p+a[i]+" ";
+					}
+					a.sort(function(b,c){return b-c});
+					var max=a[a.length-1];
+					for(i=(a.length-2); i>=0; i--)
+					{
+						if(a[i]!=max)
+						{
+							break;
+						}
+					}
+					alert("Entered Elements Are : "+p+"\nSecond Largest Digit : "+a[i]);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		Enter Size Of Array : <br>
+		<input id="txt"> <br>
+		<input type="button" value="Find Second Largest Digit">
+	</body>
+</html>
