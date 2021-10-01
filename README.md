@@ -47,13 +47,13 @@ So, yes! You can win a T-Shirt and few awesome stickers to attach on your laptop
 ## Steps to setup this Repository Locally
 
   1. Fork this repository to your account.
-![fork](Assets/fork.jpg)
+
   2. Go to Git Bash and Clone the forked repository using :
        a. Clone the repository
 ```bash
    git clone https://github.com/your_username/make-pull-request
 ```
-![clone](Assets/clone.jpg)
+
 
  3. Open the folder in your favourite code editor and add your changes or modifications.
 
