@@ -1,6 +1,6 @@
 
 
-# What to contribute
+# Guidelines
 
 -  Submit Your Projects in Project Directory only
 -   You can add any projects made with **html, css and js**. 
