@@ -1,0 +1,465 @@
+<html>
+<head>
+<title>tic tac toe</title>
+<style type="text/css">
+	#dmain
+	{
+		margin-left:200px;
+	}
+	#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9
+	{
+		border:10px solid black;
+		height:200px;
+		width:200px;
+		float:left;/*shift boxes horizontally*/
+		font-size:190px;
+		text-align:center;
+	}
+	#d1,#d4,#d7
+	{
+		clear:left;/*nothing shoud be to left of d1,d4,d7*/
+		border-left:none;/*erase left side of border*/
+	}
+	#d3,#d6,#d9
+	{
+		border-right:none;
+	}
+	#d1,#d2,#d3
+	{
+		border-top:none;
+	}
+	#d7,#d8,#d9
+	{
+		border-bottom: none;
+	}
+</style>
+<script>
+	var arr=[
+	          [-1,-1,-1],
+	          [-1,-1,-1],
+	          [-1,-1,-1]
+	        ];
+	var move=0;
+	
+	function fun1()
+	{
+		if(arr[0][0]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[0][0]=0;
+				document.getElementById("d1").innerHTML='O';
+				console.log(arr[0][0]);
+			}
+			else
+			{
+				arr[0][0]=1;
+				document.getElementById("d1").innerHTML='X';
+				console.log(arr[0][0]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+
+	
+	function fun2()
+	{
+		if(arr[0][1]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[0][1]=0;
+				document.getElementById("d2").innerHTML='O';
+				console.log(arr[0][1]);
+
+			}
+			else
+			{
+				arr[0][1]=1;
+				document.getElementById("d2").innerHTML='X';
+				console.log(arr[0][1]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun3()
+	{
+		if(arr[0][2]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[0][2]=0;
+				document.getElementById("d3").innerHTML='O';
+				console.log(arr[0][2]);
+
+			}
+			else
+			{
+				arr[0][2]=1;
+				document.getElementById("d3").innerHTML='X';
+				console.log(arr[0][2]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun4()
+	{
+		if(arr[1][0]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[1][0]=0;
+				document.getElementById("d4").innerHTML='O';
+				console.log(arr[1][0]);
+
+			}
+			else
+			{
+				arr[1][0]=1;
+				document.getElementById("d4").innerHTML='X';
+				console.log(arr[1][0]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun5()
+	{
+		if(arr[1][1]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[1][1]=0;
+				document.getElementById("d5").innerHTML='O';
+				console.log(arr[1][1]);
+
+			}
+			else
+			{
+				arr[1][1]=1;
+				document.getElementById("d5").innerHTML='X';
+				console.log(arr[1][1]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun6()
+	{
+		if(arr[1][2]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[1][2]=0;
+				document.getElementById("d6").innerHTML='O';
+				console.log(arr[1][2]);
+
+			}
+			else
+			{
+				arr[1][2]=1;
+				document.getElementById("d6").innerHTML='X';
+				console.log(arr[1][2]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun7()
+	{
+		if(arr[2][0]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[2][0]=0;
+				document.getElementById("d7").innerHTML='O';
+				console.log(arr[2][0]);
+
+			}
+			else
+			{
+				arr[2][0]=1;
+				document.getElementById("d7").innerHTML='X';
+				console.log(arr[2][0]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun8()
+	{
+		if(arr[2][1]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[2][1]=0;
+				document.getElementById("d8").innerHTML='O';
+				console.log(arr[2][1]);
+
+			}
+			else
+			{
+				arr[2][1]=1;
+				document.getElementById("d8").innerHTML='X';
+				console.log(arr[2][1]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	function fun9()
+	{
+		if(arr[2][2]==-1)
+		{
+			move=move+1;
+			if(move%2==0)
+			{
+				arr[2][2]=0;
+				document.getElementById("d9").innerHTML='O';
+				console.log(arr[2][2]);
+
+			}
+			else
+			{
+				arr[2][2]=1;
+				document.getElementById("d9").innerHTML='X';
+				console.log(arr[2][2]);
+			}
+		}
+		else
+		{
+			window.alert("can't click here!");
+		}
+		var x=checkWin();
+		if(x==1)
+		{
+			window.alert("PLayer 1 won!!!!!!");
+			reset();
+		}
+		else if(x==0)
+		{
+			window.alert("PLayer 2 won!!!!!!");
+			reset();
+		}
+		if(move==9)
+		{
+			window.alert("DRAW");
+			reset();
+		}
+	}
+	
+	function reset()
+	{
+		for(var i=0;i<arr.length;i++)
+		{
+			for(var j=0;j<arr[i].length;j++)
+			{
+				arr[i][j]=-1;
+				var t=(i*3)+j+1;
+				document.getElementById('d'+t).innerHTML="";
+			}
+		}
+		move=0;
+	}
+	function checkWin()
+	{
+		if((arr[0][0]==1 && arr[0][1]==1 && arr[0][2]==1)||
+			(arr[1][0]==1&&arr[1][1]==1&&arr[1][2]==1)||
+			(arr[2][0]==1&&arr[2][1]==1&&arr[2][2]==1)||
+			(arr[0][0]==1&&arr[1][0]==1&&arr[2][0]==1)||
+			(arr[0][1]==1&&arr[1][1]==1&&arr[2][1]==1)||
+			(arr[0][2]==1&&arr[1][2]==1&&arr[2][2]==1)||
+			(arr[0][0]==1&&arr[1][1]==1&&arr[2][2]==1)||
+			(arr[0][2]==1&&arr[1][1]==1&&arr[2][0]==1))
+		{
+			return 1;
+		}
+		else if((arr[0][0]==0&&arr[0][1]==0&&arr[0][2]==0)||
+			(arr[1][0]==0&&arr[1][1]==0&&arr[1][2]==0)||
+			(arr[2][0]==0&&arr[2][1]==0&&arr[2][2]==0)||
+			(arr[0][0]==0&&arr[1][0]==0&&arr[2][0]==0)||
+			(arr[0][1]==0&&arr[1][1]==0&&arr[2][1]==0)||
+			(arr[0][2]==0&&arr[1][2]==0&&arr[2][2]==0)||
+			(arr[0][0]==0&&arr[1][1]==0&&arr[2][2]==0)||
+			(arr[0][2]==0&&arr[1][1]==0&&arr[2][0]==0))
+		{
+			return 0;
+		}
+		else
+		{
+			return 2;
+		}
+	}
+
+</script>
+</head>
+<body>
+	
+	<div id="dmain">
+		<div id="d1" onclick="fun1()"></div>
+		<div id="d2" onclick="fun2()"></div>
+		<div id="d3" onclick="fun3()"></div>
+		<div id="d4" onclick="fun4()"></div>
+		<div id="d5" onclick="fun5()"></div>
+		<div id="d6" onclick="fun6()"></div>
+	    <div id="d7" onclick="fun7()"></div>
+		<div id="d8" onclick="fun8()"></div>
+		<div id="d9" onclick="fun9()"></div>
+	</div>
+</body>
+</html>
