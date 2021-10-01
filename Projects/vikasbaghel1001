@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+       
+ <body style="background-color: crimson;">
+
+    <!--   learniong about how to import pdf-->
+
+      
+    <embed src="C:\Users\hp\OneDrive\Desktop\notes of cpp\recursion part 3.pdf " type="application/pdf"  width=" 1000" height="1000">
+
+      <!--    another way to add pdf 
+   <iframe src="C:\Users\hp\OneDrive\Desktop\notes of cpp\recursion part 3.pdf " width="500" height=" 500" >
+
+     <object data=" C:\Users\hp\OneDrive\Desktop\notes of cpp\recursion part 3.pdf " width=" 200" height=" 300" type="application / pdf">
+      </object> -->
+
+      <!-- to add youtube video  -->
+     <br><br><br>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QXPWs00RD3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   </iframe>
+   <br><br><br>
+   <!-- adding google mapo to your web  page -->
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.17552129674!2d79.94355351428571!3d23.200273184863345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae4b12d25d8d%3A0x3ddc448fdeb118a7!2sDhani%20Ki%20Kutiya!5e0!3m2!1sen!2sin!4v1621392224098!5m2!1sen!2sin" width="1200" height="600" style="border: 5px;;" allowfullscreen="" loading="lazy"></iframe>
+   <br><br><br>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.289128740816!2d79.87410574947991!3d23.12863829389122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b3caccc2274b%3A0xc066b027d5fb1488!2sGyan%20Ganga%20Institute%20of%20Technology%20%26%20Sciences!5e1!3m2!1sen!2sin!4v1621392370349!5m2!1sen!2sin" width="1200" height="450" style="border: 5px;;" allowfullscreen="" loading="lazy">
+   </iframe>
+
+   <!--   html entites -->
+     &lt;div&gt;
+
+
+     <!--  html symbols  -->
+
+     &copy;
+     &#8508
+
+     <!--    for html entities and html symbols refers to w3 school  website-->
+
+     <!-- adding emoji in the website -->
+
+
+   <p> naruto &nbsp;  &nbsp; &nbsp; &nbsp; uzamaki </p>
+
+   &#128517   &#129315  &#129315   &#129315  &#129315  &#128517   &#129315  &#129315   &#129315  &#129315
+    &#12<br> <br><br>
+    <iframe src="https://www.ndtv.com/ " height="700" width=" 1300"></iframe>
+
+    <!-- this is used to create forms-->
+    
+     <form action= "https://www.freecatphotoapp.com/submit-cat-photo" >
+      <input type="text" placeholder="cat photo URL">
+    </form>
+    <button type="submit">Submit</button>
+   
+ </body>
+
+</html>
