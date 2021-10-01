@@ -8,5 +8,5 @@
 -   Add your name at last not above others in READ.md to let other know about your contribution.
 -   You can style the html file with css. IF we found no proper contribution then we can mark it as invalid or reject your PR.
 -   Additionally, you can host your project in [Netlify](https://www.netlify.com) and add your hosted link in Readme.md
-- We will only Merge Quality Web pages.
+-  We will only Merge Quality Web pages.
 -  Pages should be nice and clean.
