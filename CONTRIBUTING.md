@@ -1,6 +1,7 @@
 
 # What to contribute
 
+-  Submit Your Projects in Project Directory only
 -   You can add any projects made with **html, css and js**. 
 -  Create your own folder and name of folder should be  "YOUR NAME"
 -   You can add various page files which a website can contain, css or js functionalities.
