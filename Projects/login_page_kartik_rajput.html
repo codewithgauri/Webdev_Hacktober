@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            body {
+    background: linear-gradient(rgba(0, 0, 0, 0.73),rgba(0, 0, 0,0.73)) , url(https://wallpaperaccess.com/full/187161.jpg);
+    background-size: 100% 100%;
+}
+
+image{
+    height: 300px;
+    width: 300px;
+}
+
+.login-home {
+    margin-top: 5%;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.title {
+    margin-bottom: 2rem;  
+    font-size: 3rem;  
+    text-align: center;
+    color: #fff;
+  }
+
+.login-c {
+    min-width: 300px;
+    width: 30vw;
+    height: 72vh;
+    border-radius: 1rem;
+    background-color: rgb(29, 76, 129);
+}
+
+.usr-pas{
+    min-width: 300px;
+    width: 30vw;
+    height: 56vh;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #fff;
+}
+
+.inp {
+    margin-bottom: 2rem;  
+    font-size: 2rem;  
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(0, 217, 255);
+  }
+
+  .fp{
+    font-size: 1rem;
+    margin-left: 7%;
+    color: rgb(0, 217, 255);
+  }
+
+  button {
+    background-color: rgb(29, 76, 129);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 100%;
+  }
+        </style>
+    </head>
+    <body>
+        <section class="login-home">
+            <div class="login-c">
+                <h1 class="title">LOGIN</h1>
+                <div class="usr-pas"><br><br><br>
+                    <input type="text" placeholder="Username" class="inp" required><br><br>
+                    <input type="password" placeholder="Password" class="inp" required><br>
+                    <h4 class="fp">Forget Your Password?</h4>
+                    <div class="btn" style="padding: 26px;">
+                        <button class="start-button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
