@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    <style>
+    
+    .player{width:20px;height:20px;background:orange;border-radius:50%;margin-top:130px;position:absolute;margin-left:100px}
+    button:active{background:#111;border:none}
+    *{
+        -webkit-user-select:none
+    }
+    body{background:#111}
+        .caller{border:1px solid #111;background:indigo;
+        height:150px;border-bottom:2px solid green}
+        .a{width:250px;height:50px;background:none;margin-left:25px;margin-top:100px}
+        .b{width:50px;height:100px;position:absolute;background:#222;border:none;color:blue}
+    </style>
+    </head>
+    <body>
+        <div class="caller">
+            <div class="player" id="player"></div>
+            <div style="width:20px;height:40px;background:brown;position:absolute;margin-top:110px;margin-left:200px"></div>
+        </div>
+        <div class="a">
+            <button id="a" class="b" style="margin-top:0px;margin-left:0px"><<<</button>
+            <button id="b" class="b" style="margin-top:0px;margin-left:200px">>>></button>
+            <button id="c" class="b" style="margin-left:55px;height:40px;margin-top:60px;font-size:20px">^</button>
+            
+             <button id="d" class="b" style="margin-left:145px;height:40px;margin-top:60px">v</button>
+            
+        </div>
+      <script>
+          
+          window.onload=function(){
+          right=100;
+          up=130;
+          down=0;
+          var player=document.getElementById("player");
+              var a=document.getElementById("a");
+              var b=document.getElementById("b");
+              var c=document.getElementById("c")
+          }
+          
+          b.addEventListener('touchstart',function(){
+          setInterval(moveright)
+          function moveright(){
+              right++;
+              player.style.marginLeft=right+"px";
+              if(right==181 || right==284){
+                  right--;
+                   player.style.marginLeft=right+"px";
+                
+              }
+          }
+              
+          })
+          
+      b.addEventListener('touchend',function(){
+          setInterval(stopmoveright)
+          function stopmoveright(){
+              right--;
+              player.style.marginLeft=right+"px"
+          }
+              
+          })  
+          
+          a.addEventListener('touchstart',function(){
+              setInterval(moveleft)
+              function moveleft(){
+                right--;
+                player.style.marginLeft=right+"px" ;
+                if(right==0) {
+                    right++;
+                    player.style.marginLeft=right+"px"
+                }
+              }
+          }) 
+          
+          
+          
+      a.addEventListener('touchend',function(){
+              setInterval(stopmoveleft)
+              function stopmoveleft(){
+                right++;
+                player.style.marginLeft=right+"px"  
+              }
+          }) 
+             
+          
+          c.addEventListener('touchstart',function(){
+              setInterval(moveup)
+              function moveup(){
+              up--;
+              player.style.marginTop=up+"px";
+              if(up==0){
+              setInterval(movedownwards)
+              function movedownwards(){
+                  up++;
+                  player.style.marginTop=up+"px";
+                  if(up==130){
+                      up--;
+                      player.style.marginTop=up+"px"
+                  }
+              }
+                 up++;  player.style.marginTop=up+"px"     
+                  }
+                  
+              }
+                  
+              
+          })
+
+      </script>
+    </body>
+</html>
