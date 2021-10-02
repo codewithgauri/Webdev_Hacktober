@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            background-color: darkturquoise;
+        }
+        
+        .div1 img
+        {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            box-shadow: 2px 4px 6px 0px;
+        }
+        .div1{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin: 10px;
+        }
+        .div1 h1{
+            font-size: 50px;
+            font-weight: bold;
+            padding-left: 40px;
+            text-shadow: 2px 2px gray;
+        }
+        .div2{
+            width: 30%;
+        }
+        .div2 a{
+            display: block;
+            padding: 20px;
+            margin: 20px;
+            background-color: blanchedalmond;
+            width: 200px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        
+        
+        
+        .div2 a:hover{
+            background-color: greenyellow;
+        }
+        .div3{
+            display: flex;
+            align-items: flex-start;
+        }
+        .common
+        {
+            box-shadow: 2px 4px 6px 8px;
+            padding: 20px;
+        }
+        .common:target{
+            display: block !important;
+        }
+        
+        .experi{
+            display: inline-block;
+            padding: 10px;
+            margin: 30px;
+        }
+        .e1{
+            width: 40%;
+            float: left;
+        }
+        .e2{
+            width: 50%;
+            float: right;
+        }        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="div1">
+        <img src="https://www.vhv.rs/dpng/d/14-143349_computer-girl-cartoon-png-transparent-png.png" alt="avatar">
+        <h1>Chandana Samineni</h1>
+    </div>
+    <div class="div3">
+        <div class="div2">
+            <a href="#about">About me</a>
+            <a href="#desgin">Designation</a>
+            <a href="#edu">Education</a>
+            <a href="#exp">Experience</a>
+            <a href="#skill">Skills</a>
+        </div>
+
+        <div class="common" id="about" style="display: none;font-size: 25px;">
+            <p>Myself <b>Chandana Samineni</b>. I'm pursuing my graduation 3rd year in <b>Chaitanya Bharathi Institute of Technology</b> ,Hyderabad. I love coding. I'm pretty interested in Computer Technology. So I opted CSE in engineering.</p>
+            <p>Madison Blackstone is a director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. Her background in brand strategy, visual design, and account management inform her mindful but competitive approach. Madison is fueled by her passion for understanding the nuances of cross-cultural advertising. She considers herself a ‘forever student,’ eager to both build on her academic foundations in psychology and sociology and stay in tune with the latest digital marketing strategies through continued coursework.</p>
+            <p>Her hunger for knowledge and determination to turn information into action has contributed to her most recent success at Rockwell Group, where she led international, award-winning campaigns for heavy-hitting brands, such as Puma, Gucci, and Rolex. Meanwhile, she vastly improved the productivity of her team by implementing strategic project management methods and ensuring a work-life balance for her department.</p>
+        </div>
+        <div class="common" id="desgin" style="display: none;font-size: 25px;align-items:center">
+            <p style="text-align: center;">I'm a student and an active Intern. I preparing myself for GATE as well as placements.</p>
+            <img style="margin-left:auto;margin-right:auto;" src="https://annamacharyagroup.org/wp-content/uploads/2018/05/Tip-for-campus-placements-2-05-2018.jpg" alt="placement" width="700px">
+        </div>
+        <div class="common" id="edu" style="display: none;font-size: 25px;align-items:center">
+            <ul>
+                <li>SSC - Teja Talent School</li>
+                <p><i>10 GPA</i></p>
+                <li>Intermediate - SR Junior College for girls</li>
+                <p><i>976/1000 marks</i></p>
+                <li>B.E - Chaitanya Bharathi Institute of Technology</li>
+                <p><i>8.95 CGPA</i></p>
+            </ul>
+        </div>
+        <div class="common experi" id="exp" style="display: none;font-size: 25px;align-items:center">
+            <div class="e1">
+                <h3>1. Social Media Marketing Intern</h3>
+                <p>I worked as a social media marketing intern in Newtin School for 1 month. There I learned how to do analyis and how to improve sales and i also learnt new marketing skills.</p>
+            </div>
+            <div class="e2">
+                <h3>2. Image Processing and OpenCV Intern</h3>
+                <p>This i an 1 month internship at ConnectScape AI. I learnt image processing and bulit some machine learning models and at the time internship we are supposed to give a weekly feedback to the mentor on our work. </p>
+            </div>
+        </div>
+        <div class="common " id="skill" style="display: none;font-size: 25px;align-items:center">
+            <div>
+                <h4>My Skills...</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>C,C++</li>
+                    <li>Python</li>
+                    <li>Data Structures</li>
+                    <li>DBMS</li>
+                    <li>React JS</li>
+                    <li>Django</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
