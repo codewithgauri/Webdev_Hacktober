@@ -96,7 +96,7 @@ After contributing add your **NAME and USER NAME** here:
  2. **Syed Mustafa Imam** - [SyedMustafaImam](https://github.com/SyedMustafaImam)
  3. **Ayush Raj** - [digitallyayush](https://github.com/digitallyayush)
  4. **Nishant Garg** - [nishantgarg2002](https://github.com/nishantgarg2002)
- 5. **Full Name** - [User Name](https://github.com/username)
+ 5. **Mohit** - [MohitOnHub](https://github.com/MohitOnHub)
  6. **Full Name** - [User Name](https://github.com/username)
  7. **Full Name** - [User Name](https://github.com/username)
  8. **Full Name** - [User Name](https://github.com/username)
