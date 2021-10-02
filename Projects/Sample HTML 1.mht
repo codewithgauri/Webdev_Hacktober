@@ -1,0 +1,106 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://filesamples.com/samples/code/html/sample1.html
+Subject: Sample HTML 1
+Date: Sat, 2 Oct 2021 07:51:23 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Ix1xxM7VWkkfCa67LrfOBZ8ht3A9HyAk96LTf53NCg----"
+
+
+------MultipartBoundary--Ix1xxM7VWkkfCa67LrfOBZ8ht3A9HyAk96LTf53NCg----
+Content-Type: text/html
+Content-ID: <frame-CF14DB1ABD26B8FBBFB573DB85C68F90@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://filesamples.com/samples/code/html/sample1.html
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><link rel="stylesheet" type="text/css" href="cid:css-bf8366f4-c1ba-47ce-a2ca-d5e23d9ab578@mhtml.blink" />
+
+
+
+<link rel="preload" as="script" href="https://securepubads.g.doubleclick.net/tag/js/gpt.js">
+<link href="https://ad.doubleclick.net/" rel="dns-prefetch">
+<link href="https://pagead2.googlesyndication.com/" rel="dns-prefetch">
+<link href="https://googleads.g.doubleclick.net/" rel="dns-prefetch">
+<link href="https://tpc.googlesyndication.com/" rel="dns-prefetch">
+<link href="https://adservice.google.com/" rel="dns-prefetch">
+<link href="https://secureads.g.doubleclick.net/" rel="dns-prefetch">
+<link href="https://www.googletagservices.com/" rel="dns-prefetch">
+<link rel="preload" as="script" href="https://go.ezodn.com/hb/dall.js?b=amx,oftmedia,onetag,pubmatic,pubmatic,pulsepoint,rhythmone,sharethrough,unruly&amp;cb=195-2-29">
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://loripsum.net/" crossorigin="">
+<link rel="preconnect" href="https://go.ezoic.net/" crossorigin="">
+	<title>Sample HTML 1</title>
+<link rel="canonical" href="https://filesamples.com/samples/code/html/sample1.html">
+<base href="https://filesamples.com/samples/code/html/sample1.html"><!-- START EZHEAD -->
+
+<!--{jquery}-->
+<!-- END EZHEAD -->
+
+
+
+<meta http-equiv="origin-trial" content="A88otRz1Fd3Nt567e2IYshC18LL3KGVXpVJW9oTCId4RYaygt23pbb4JqrbdIO/bwZPWEmRjBIRBu/bZbDR7Pg4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A0gCLbXCcL0R1Oc8tFPDs0G4Elz17w3zHp+Zst66+D17veE2o7fUcPsA114QtSTRqfVJLMeTSdeWOom0CcyCsgYAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9RQ+LxFazAousxUwSCzaihJjHLO1UyjQp0teZKHl7WdbVjPDfHSKMd6D/ZI5MTjqClFycbl70EFd7cBJWXqKQEAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6WKeWsdn1Ct+ZPqS9NCxxaiBoQ7wdTkK2/gE69Yu0gfBKJfo1gOvgkGmf5/xaIajT/RUb9AbnF1FsSZ47cCcQcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A04ZCu7yjrHgwQJK5ISHhH1DSg0qqowEay3n70KO6wV3D2Mj+OX3Kw20aSMitzgdG1xfrN7sOJV/dZIk+RvCzA4AAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjM0MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A2YAd4xOntTGygIDjApOTtXOgVI3IWsd5OnOGq3RbRkIQwyqYWNl1JGRAcvtm6VOHDj4n07T/J19VqLuJn3MmQ8AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A2c5Ux+hivdkLh/KbZUGr6f7SCR0mZrBVfPJ+/OuDVHNwiYv+Lo83b9z5qL8sod78bQl0pSLtbvRWURo+xRl7AIAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AzNJ4sd3tVurolpdvWYZ4cmP9Po7RJhEHSqmC3pgxW9fFVZvchhtcMUgHAs97npxMD1jhXHO8s6q6Wy1MMLxKgEAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"></head>
+<body>
+	Sample HTML 1
+	<h1>Minime vero, inquit ille, consentit.</h1>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Cur igitur, cum de re conveniat, non malumus usitate loqui? </p>
+
+	<ol>
+		<li>Si qua in iis corrigere voluit, deteriora fecit.</li>
+		<li>At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia?</li>
+		<li>An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit?</li>
+		<li>Multoque hoc melius nos veriusque quam Stoici.</li>
+		<li>Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit.</li>
+		<li>Ego vero isti, inquam, permitto.</li>
+	</ol>
+
+
+	<p>Graecum enim hunc versum nostis omnes-: Suavis laborum est praeteritorum memoria. Qui enim existimabit posse se miserum esse beatus non erit. Si qua in iis corrigere voluit, deteriora fecit. <a href="http://loripsum.net/" target="_blank">Si qua in iis corrigere voluit, deteriora fecit.</a> Dic in quovis conventu te omnia facere, ne doleas. Tu quidem reddes; </p>
+
+	<ul>
+		<li>Duo Reges: constructio interrete.</li>
+		<li>Contineo me ab exemplis.</li>
+		<li>Quo plebiscito decreta a senatu est consuli quaestio Cn.</li>
+		<li>Quicquid porro animo cernimus, id omne oritur a sensibus;</li>
+		<li>Eam si varietatem diceres, intellegerem, ut etiam non dicente te intellego;</li>
+		<li>Qua ex cognitione facilior facta est investigatio rerum occultissimarum.</li>
+	</ul>
+
+
+	<blockquote cite="http://loripsum.net/">
+		Me igitur ipsum ames oportet, non mea, si veri amici futuri sumus.
+	</blockquote>
+
+
+
+
+
+
+		
+
+
+
+
+<div id="uglipop_overlay_wrapper" style="position:absolute;top:0;bottom:0;left:0;right:0;display:none"><div id="uglipop_overlay" style="position: fixed; inset: 0px; opacity: 0.3; width: 100%; height: 100%; background-color: black; display: none;"></div></div><div id="uglipop_content_fixed" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 1; z-index: 10000000; display: none;"><div id="uglipop_popbox"></div></div></body></html>
+------MultipartBoundary--Ix1xxM7VWkkfCa67LrfOBZ8ht3A9HyAk96LTf53NCg----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-bf8366f4-c1ba-47ce-a2ca-d5e23d9ab578@mhtml.blink
+
+@charset "windows-1252";
+
+.ezoic-ad { display: inline-block; border: 0px; }
+
+.ezoic-ad > div > iframe { margin: 0px !important; padding: 0px !important; }
+
+.adtester-container-128, .adtester-container-123, .adtester-container-133, .adtester-container-122, .adtester-container-126, .adtester-container-100, .adtester-container-127, .adtester-container-121, .adtester-container-139, .adtester-container-130, .adtester-container-132, .adtester-container-138, .adtester-container-140, .adtester-container-125, .adtester-container-136, .adtester-container-129, .adtester-container-135, .adtester-container-137, .adtester-container-134, .adtester-container-131, .adtester-container-124 { display: none !important; }
+
+.ezoic-floating-bottom { display: none !important; }
+------MultipartBoundary--Ix1xxM7VWkkfCa67LrfOBZ8ht3A9HyAk96LTf53NCg------
