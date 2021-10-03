@@ -1,31 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="css.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
 
-	<script src="https://kit.fontawesome.com/5ee2cb3094.js" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    .main {
+      text-align: center;
+    }
 
+    input {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 8px;
+      outline: none;
+    }
+    img{
+      border-radius: 70px;
+    }
+
+    input:hover{
+      border:2px solid red;
+    }
+  </style>
 </head>
+
 <body>
-	<div class="cont">
-		<img src="logo.jpg">
-		<h1 >Welcome To Login Page</h1>
-		<div class="box">
-			<i class="fa fa-envelope-o"></i>
-			<input type="email" name="email" id="email" placeholder="Enter Your Email">
-
-		</div>
-		<div class="box">
-
-<i class="fa fa-unlock"></i>
-			<input type="password" name="password" id="password" placeholder="Enter Your Password">
-
-		</div>
-		<button class="btn"> Login</button>
-
-	</div>
-
+  <div class="main">
+    <h1>Login</h1>
+    <br/>
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIrxPSJI-uVlJtW6uLDwKFu13Ys9rqfpjo_w&usqp=CAU"
+        width="150px" alt="login" />
+      <br /><br />
+      <form>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <br />
+        <input type="password" id="pwd" placeholder="Password" />
+        <br />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
