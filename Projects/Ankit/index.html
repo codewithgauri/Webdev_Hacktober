@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: 0px;
+            width: 0px;
+            background-color: lightgray;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 2s ease-in-out;
+        }
+        #container:target{
+            top: 30%;
+            left: 30%;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#container">LightBox Animation</a>
+    </div>
+    <div id="container">
+        <a href="#">X</a>
+        <p>This is animation</p>
+    </div>
+</body>
+</html>
