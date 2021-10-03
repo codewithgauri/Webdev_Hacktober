@@ -100,7 +100,7 @@ After contributing add your **NAME and USER NAME** here:
  5. **Mohit** - [MohitOnHub](https://github.com/MohitOnHub)
  6. **Vikalp Shishodia** - [VkRan](https://github.com/VkRan)
 
- 7. **Full Name** - [User Name](https://github.com/username)
+ 7. **Swapnanil Ray** - [redhatpanda](https://github.com/redhatpanda)
  8. **Full Name** - [User Name](https://github.com/username)
  
   
