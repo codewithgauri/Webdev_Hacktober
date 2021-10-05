@@ -103,6 +103,8 @@ After contributing add your **NAME and USER NAME** here:
  7. **Full Name** - [User Name](https://github.com/username)
  8. **Full Name** - [User Name](https://github.com/username)
  
+ 9. **Full Name** - [Jam Stanley](https://github.com/jamstanley)
+ 
   
 
      

@@ -1,0 +1,30 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider ul {
+    display: block;
+    list-style: none;
+    position: relative; 
+    height: 600px;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+.slider li {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 0.5s;
+}
+
+.slider .btn {
+    margin: 30px;
+}
+
+.slider .visible {
+    opacity: 1;
+}
