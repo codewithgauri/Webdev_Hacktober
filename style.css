@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    /* justify-content: left; */
+    text-align: left;
+    flex-direction: column;
+    background-color: rgb(250, 248, 248);
+    font-family: 'Open Sans', 'sans-serif';
+    
+}
+p a{
+    text-decoration: none;
+    color: blue;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+
+
+
