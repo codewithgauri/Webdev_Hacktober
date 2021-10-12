@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <P><form action="message.html" method="POST" >
+            <label for="name">Name</label>:
+            <input type="text" id="name" name="name" value="Aditya" required />
+
+            <label for="email">Email ID</label>:
+            <input type="email" id="email" name="email" />
+
+            <label for="quantity">Quantity</label>:
+            <input type="number" id="quantity" name="quantity" min="1" max="10" />
+
+            <label for="searchForProducts">Search For Products</label>:
+            <input type="search" id="seacrhForProducts" name="seacrhForProducts" />
+
+            <label>Start Date: <input type="date" name="start-date" /></label>
+            Password: <input type="password" name="password" />
+            
+            <label for="address">Address</label>
+            <textarea id="address" rows="3"></textarea>
+
+            <label for="city">City</label>
+            <select id="city" name="city">
+                <option>Bangalore</option>
+                <option>Kolkata</option>
+                <option selected>Mumbai</option>
+                <option>Delhi</option>
+            </select>
+            
+            <label for="interest">Interets</label>
+            <div id="interest">
+                <label><input type="checkbox" name="interest" value="sports" /> Sports</label>
+                <label><input type="checkbox" name="interest" value="Current Affairs" /> Current Affairs</label>
+                <label><input type="checkbox" name="interest" value="Films" /> Films</label>
+            </div>
+
+            <label for="gender">Gender</label>
+            <div id="gender">
+                <label><input type="radio" name="gender" value="Male" checked />Male</label>
+                <label><input type="radio" name="gender" value="Female" />Female</label>
+            </div>
+
+            <button>Submit</button></P>
+            <input type="submit" value="Checkout" />
+            <input type="reset" value="Reset all inputs" />
+
+        </form>    
+    </body>
+</html>
